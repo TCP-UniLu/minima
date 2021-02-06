@@ -8,7 +8,7 @@
   line-height: $base-line-height * $base-font-size * 2.25;
 
   // Positioning context for the mobile navigation icon
-  position: relative;
+  position: fixed;
 }
 
 .site-title {
@@ -30,7 +30,7 @@
 }
 
 .site-nav {
-  position: fixed;
+  position: relative;
   top: 9px;
   right: $spacing-unit / 2;
   background-color: $background-color;
