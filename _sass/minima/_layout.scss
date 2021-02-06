@@ -7,6 +7,7 @@
   min-height: $spacing-unit * 1.865;
   line-height: $base-line-height * $base-font-size * 2.25;
 
+  border: 1px solid blue; 
   // Positioning context for the mobile navigation icon
   position: static;
 }
@@ -38,6 +39,7 @@
   border-radius: 5px;
   text-align: right;
 
+  border: 1px solid red; 
   .nav-trigger {
     display: none;
   }
